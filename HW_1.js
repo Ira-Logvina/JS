@@ -45,8 +45,14 @@ var item_5 = item_3;
 //21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——  
 
 var item_6 = 15;
+console.log(typeof item_6)
+var item_6_type = Number(item_6);
+console.log("item_6 == ", typeof item_6, ", item_6_type == ", typeof item_6_type)
+
+var item_6 = 15;
 var item_6_type = typeof item_6;
 console.log("item_6 ==", item_6, "item_6_type ==", item_6_type)
+console.log("item_6 == ", typeof item_6, "item_6_type == ", typeof item_6_type)
 
 //22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 //23. Создать переменную item_7_type
@@ -71,7 +77,7 @@ var age_2 = 18;
 var age_3 = 60;
 
 if (age_1 < age_2) {
-    console.log("You don’t have access cause your age is", age_1, "It’s less then")
+    console.log("You don’t have access cause your age is ", age_1, " It’s less then")
 } else if (age_1 >= age_2 && age_1 < age_3) {
     console.log("Welcome  !")
 } else if (age_1 > age_3) {
