@@ -49,11 +49,6 @@ console.log(typeof item_6)
 var item_6_type = Number(item_6);
 console.log("item_6 == ", typeof item_6, ", item_6_type == ", typeof item_6_type)
 
-var item_6 = 15;
-var item_6_type = typeof item_6;
-console.log("item_6 ==", item_6, "item_6_type ==", item_6_type)
-console.log("item_6 == ", typeof item_6, "item_6_type == ", typeof item_6_type)
-
 //22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 //23. Создать переменную item_7_type
 //24. Присвоить переменной item_7_type тип переменной item_7
