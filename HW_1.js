@@ -55,8 +55,9 @@ console.log("item_6 == ", typeof item_6, ", item_6_type == ", typeof item_6_type
 //25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type —— 
 
 var item_7 = String(item_6)
-var item_7_type = typeof item_7;
-console.log("item_7 ==", item_7, "item_7_type ==", item_7_type)
+console.log(typeof item_7)
+var item_7_type = String(item_7)
+console.log("item_7 == ", typeof item_7, ", item_7_type == ", typeof item_7_type)
 
 //26. Создать переменную “age_1” и присвоить ей значение 10
 //27. Создать переменную “age_2” и присвоить ей значение 18
